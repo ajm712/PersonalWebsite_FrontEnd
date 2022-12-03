@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { useState } from 'react';
-import axios from 'axios';
+
 
 export default function CryptoApp() {
     const [data, setData] = useState();
     const [error, setError] = useState("");
     const [coinNameFromInput, setCoinNameFromInput] = useState("");
+    const axios = require('axios');
 
     const getCoinData = async () => {
         try {
