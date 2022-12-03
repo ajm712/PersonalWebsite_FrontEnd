@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <header className="bg-gray-800 md:sticky top-0 z-10">
             <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
-                <a href="#" className="title-font font-medium text-white mb-4 md:mb-1">
+                <a href="/" className="title-font font-medium text-white mb-4 md:mb-1">
                     <a href="../#about" className="ml-3 text-xl hover:text-green-400">
                         Austin Markham
                     </a>
