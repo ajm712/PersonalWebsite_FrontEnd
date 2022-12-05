@@ -18,7 +18,7 @@ export default function Navbar() {
                     <Link to="/Pages/WebApps" className="mr-5 hover:text-green-400">
                         Web Apps
                     </Link>
-                    <Link to="/Pages/AboutThisSite" className="mr-5 hover:text-green-400 text-rigth">
+                    <Link to="/components/AboutThisSite" className="mr-5 hover:text-green-400 text-rigth">
                         About This Site
                     </Link>
                 </nav>

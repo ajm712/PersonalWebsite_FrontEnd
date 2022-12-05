@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Routes }
     from 'react-router-dom';
 import WebApps from "./Pages/WebApps";
 import MainPage from "./components/MainPage";
-import CryptoApp from "./Pages/CryptoApp";
-import AboutThisSite from "./Pages/AboutThisSite";
+import CryptoApp from "./components/CryptoApp";
+import AboutThisSite from "./components/AboutThisSite";
 
 export default function App() {
     return (
@@ -13,8 +13,8 @@ export default function App() {
           <Router>
                 <Routes>
                     <Route path='/Pages/WebApps' element={<WebApps />} />
-                    <Route path='/Pages/CryptoApp' element={<CryptoApp />} />
-                    <Route path='/Pages/AboutThisSite' element={<AboutThisSite />} />
+                    <Route path='/Components/CryptoApp' element={<CryptoApp />} />
+                    <Route path='/Components/AboutThisSite' element={<AboutThisSite />} />
                     <Route path = '/' element={<MainPage />} />
                 </Routes>
           </Router>

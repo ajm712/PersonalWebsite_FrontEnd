@@ -7,7 +7,7 @@ export default function WebApps() {
 
     const navigateToCryptoApp = () => {
         // 👇️ navigate to /contacts
-        navigate('/Pages/CryptoApp');
+        navigate('../components/CryptoApp');
     };
     return (
         <main>
