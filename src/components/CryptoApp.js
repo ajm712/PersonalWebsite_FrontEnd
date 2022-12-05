@@ -55,7 +55,7 @@ export default function CryptoApp() {
                     />
                     <div className="py-2">
                         <button
-                            className="text-white bg-sky-500 border-0 py-2.5 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                            className="text-white bg-sky-500 border-0 py-2.5 px-6 focus:outline-none hover:bg-green-400 rounded-full text-lg">
                             Submit
                         </button>
                     </div>

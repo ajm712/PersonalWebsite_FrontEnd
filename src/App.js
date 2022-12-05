@@ -9,10 +9,10 @@ import AboutThisSite from "./components/AboutThisSite";
 
 export default function App() {
     return (
-        <main className="text-gray-300 bg-gray-900 body-font">
+        <main className="text-gray-300 font-semibold bg-gradient-to-r from-cyan-500 to-blue-500 body-font">
           <Router>
                 <Routes>
-                    <Route path='/Pages/WebApps' element={<WebApps />} />
+                    <Route path='/WebApps' element={<WebApps />} />
                     <Route path='/Components/CryptoApp' element={<CryptoApp />} />
                     <Route path='/Components/AboutThisSite' element={<AboutThisSite />} />
                     <Route path = '/' element={<MainPage />} />

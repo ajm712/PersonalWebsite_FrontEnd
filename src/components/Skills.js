@@ -7,7 +7,7 @@ export default function Skills() {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-            <CodeBracketIcon className="w-20 inline-block mb-4 text-sky-400" />
+            <CodeBracketIcon className="w-20 inline-block mb-4 text-sky-700" />
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-3">
               Skills and Technologies
             </h1>
@@ -18,7 +18,7 @@ export default function Skills() {
           <div className="flex flex-wrap lg:w-3/5 sm:mx-auto sm:mb-2 -mx-2">
             {skills.map((skill) => (
               <div key={skill} className="p-2 sm:w-1/3 w-full">
-                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <div className="bg-gray-800 rounded flex p-4 items-center">
                   <CheckCircleIcon className="text-sky-400 w-6 h-6 flex-shrink-0 mr-4" />
                   <span className="title-font font-medium text-white">
                     {skill}

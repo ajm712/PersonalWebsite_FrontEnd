@@ -12,6 +12,7 @@ export const skills = [
     "Microservices",
     "Kubernetes",
     "Docker",
+    "Kafka"
 ];
 
 export const experience = [
@@ -27,14 +28,14 @@ export const experience = [
         subtitle: "Software Engineer - Junior Level",
         dates: "March 2022 - October 2022",
         description:
-            "Contributing to the continuous development and maintenance of internal web based applications. All applications are hosted in Azure and take advantage of the robust power of Restful API'S and the entity framework for easy database object management",
+            "Contributed to the continuous development and maintenance of internal web based applications. All applications are hosted in Azure and take advantage of the robust power of Restful API'S and the entity framework for easy database object management",
     },
     {
         title: "Palisade Technologies",
         subtitle: "Software Engineer - Junior Level",
         dates: "July 2021 - March 2022",
         description:
-            "Contributing to the continuous development of a real time radar simulation software for the United States Army using C++ and Ada. All software is developed on Red Hat Linux using various IDEs and all work is managed through Jira.",
+            "Contributed to the continuous development of a real time radar simulation software for the United States Army using C++ and Ada. All software is developed on Red Hat Linux using various IDEs and all work is managed through Jira.",
     },
     {
         title: "Hexagon Safety and Infastructure",

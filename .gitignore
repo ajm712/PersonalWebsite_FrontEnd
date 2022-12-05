@@ -9,8 +9,8 @@
 /coverage
 
 .vs
-.suo
-.sqlite
+*.suo
+*.sqlite
 # production
 /build
 /.vs
