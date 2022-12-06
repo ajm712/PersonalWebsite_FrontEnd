@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <header className="bg-gradient-to-r from-cyan-500 to-blue-500 sticky top-0 z-10">
+        <header className="bg-gray-800 sticky top-0 z-10">
             <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
-                <a href="../#mainpage" className=" ml-3 text-3xl text-sky-700 font-bold text-white">
+                <a href="../#mainpage" className=" ml-3 text-2xl font-bold text-white rounded-full ">
                         Austin Markham
                     </a>
                 <nav className="font-semibold md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-lg">
