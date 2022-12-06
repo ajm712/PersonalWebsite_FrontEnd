@@ -15,7 +15,7 @@ export default function Experience() {
                         My professional expereience as a software engineer from September 2019 to present
                     </p>
                 </div>
-                <div className="flex flex-wrap -m-4">
+                <div className="flex-1 flex-wrap -m-4">
                     {experience.map((job) => (
                         <div key={job.title} className=" w-100 p-4">
                             <div className="flex relative">

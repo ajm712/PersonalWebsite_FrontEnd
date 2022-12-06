@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Hamburger from "./Hamburger";
 
 
 export default function Navbar() {
@@ -23,6 +24,7 @@ export default function Navbar() {
                         About
                     </Link>
                 </nav>
+                {/*<Hamburger />*/}
             </div>
         </header>
     );

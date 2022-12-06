@@ -23,7 +23,7 @@ export default function AboutThisSite() {
 
                         </p>
                     </div>
-                    <div className="flex flex-wrap -m-4">
+                    <div className="flex-1 flex-wrap -m-4">
                             {siteTechnologies.map((tech) => (
                                 <div
                                     key={siteTechnologies.technologyName}
