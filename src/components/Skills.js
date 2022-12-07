@@ -1,11 +1,14 @@
 import { CheckCircleIcon, CodeBracketIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import { skills } from "../data";
+import Navbar from "./Navbar"
 
 export default function Skills() {
-  return (
+    return (
+        <div>
+            {<Navbar />}
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
+      <div className="container px-5 py-10 mx-auto h-screen">
         <div className="text-center mb-20">
             <CodeBracketIcon className="w-20 inline-block mb-4 text-sky-700" />
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-3">
@@ -28,6 +31,7 @@ export default function Skills() {
             ))}
           </div>
         </div>
-      </section>
+            </section>
+            </div>
    );
 }

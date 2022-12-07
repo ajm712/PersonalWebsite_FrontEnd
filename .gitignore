@@ -12,8 +12,8 @@
 *.suo
 *.sqlite
 # production
-/build
-/.vs
+/build/
+.vs/
 
 # misc
 .DS_Store

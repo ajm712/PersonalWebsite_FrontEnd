@@ -41,7 +41,7 @@ export default function CryptoApp() {
 
     return (
         <div className="h-screen">
-            <Navbar />
+            { <Navbar />}
             <div className="text-center mb-50 py-8">
                 <form onSubmit={handleSubmit}>
                     <div><label>Enter crypto coin name below</label></div>

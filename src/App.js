@@ -6,6 +6,8 @@ import WebApps from "./Pages/WebApps";
 import MainPage from "./components/MainPage";
 import CryptoApp from "./components/CryptoApp";
 import AboutThisSite from "./components/AboutThisSite";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
 
 export default function App() {
     return (
@@ -13,8 +15,10 @@ export default function App() {
           <Router>
                 <Routes>
                     <Route path='/WebApps' element={<WebApps />} />
-                    <Route path='/Components/CryptoApp' element={<CryptoApp />} />
-                    <Route path='/Components/AboutThisSite' element={<AboutThisSite />} />
+                    <Route path='/CryptoApp' element={<CryptoApp />} />
+                    <Route path='/AboutThisSite' element={<AboutThisSite />} />
+                    <Route path='/Experience' element={<Experience />} />
+                    <Route path='/Skills' element={<Skills />} />
                     <Route path = '/' element={<MainPage />} />
                 </Routes>
           </Router>

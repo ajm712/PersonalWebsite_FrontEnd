@@ -1,9 +1,12 @@
 import { CubeIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import { experience } from "../data";
+import Navbar from "./Navbar";
 
 export default function Experience() {
     return (
+    <div>
+        {<Navbar />}
         <section id="experience">
             <div className="container px-5 py-10 mx-auto">
                 <div className="text-center mb-20">
@@ -37,6 +40,7 @@ export default function Experience() {
                 </div>
 
             </div>
-        </section>
+            </section>
+        </div>
     );
 }

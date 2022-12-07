@@ -1,8 +1,11 @@
 import React from "react";
 import {CommandLineIcon} from "@heroicons/react/24/solid";
+import Navbar from "./Navbar";
 
 export default function Introduction() {
     return (
+        <div className="h-screen">
+            { <Navbar /> }
         <section id="about">
             <div className="container px-5 py-20 mx-auto">        
                 <div className="text-center mb-20">
@@ -15,6 +18,7 @@ export default function Introduction() {
                     </p>
                 </div>
                 </div>
-        </section>
+            </section>
+        </div>
     );
 }

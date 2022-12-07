@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github\\workflows",
     "\\public",
     "\\src",
     "\\src\\components"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\src\\components\\Hamburger.js",
   "PreviewInSolutionExplorer": false
 }
