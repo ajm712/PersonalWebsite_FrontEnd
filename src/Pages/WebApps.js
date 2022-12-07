@@ -1,16 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { useNavigate } from "react-router-dom";
-import CryptoApp from "../components/CryptoApp";
 import { Link } from "react-router-dom";
 
 export default function WebApps() {
-    const navigate = useNavigate();
-
-    const navigateToCryptoApp = () => {
-        // 👇️ navigate to /contacts
-        navigate('../components/CryptoApp');
-    };
     return (
         <main>
         <Navbar />

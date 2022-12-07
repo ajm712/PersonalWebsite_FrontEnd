@@ -8,9 +8,12 @@
 # testing
 /coverage
 
-.vs
-*.suo
+*.vs
 *.sqlite
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 # production
 /build/
 .vs/
