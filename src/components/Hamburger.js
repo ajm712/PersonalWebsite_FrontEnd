@@ -5,9 +5,9 @@ export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
-        <div className="flex items-center justify-between py-3">
-            <Link to="/" className=" ml-3 text-2xl font-bold text-white">
-                Austin Markham
+        <div className="flex items-center justify-end">
+            <Link to="/" className="static ">
+                <img src={require('../images/Name_logo_3.png')} alt="Logo" />
             </Link>
             <nav>
                 <section className="MOBILE-MENU flex lg:hidden">
@@ -26,7 +26,7 @@ export default function Header() {
                             onClick={() => setIsNavOpen(false)}
                         >
                             <svg
-                                className="h-8 w-8 text-gray-600"
+                                className="h-8 w-8 text-gray-300"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -38,7 +38,7 @@ export default function Header() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="flex flex-col items-center justify-between min-h-[200px] text-2xl">
+                        <ul className="flex flex-col items-center justify-between min-h-[200px] text-3xl text-gray-800">
                             <Link to="/Experience" className="mr-5">
                                 Experience
                             </Link>
@@ -79,6 +79,7 @@ export default function Header() {
         top: 0;
         left: 0;
         background: white;
+        opacity: 0.9;
         z-index: 10;
         display: flex;
         flex-direction: column;

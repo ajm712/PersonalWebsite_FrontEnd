@@ -5,7 +5,7 @@ import Navbar from "./Navbar"
 
 export default function Skills() {
     return (
-        <div>
+        <div className="h-screen">
             {<Navbar />}
             <section id="skills">
       <div className="container px-5 py-10 mx-auto">

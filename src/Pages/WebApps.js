@@ -12,8 +12,7 @@ export default function WebApps() {
                     className="text-white bg-gradient-to-r from-gray-500 to-blue-500 border-0 py-2.5 px-6 focus:outline-none hover:bg-green-400 rounded-full text-lg">
                     <Link to="/CryptoApp">
                         Crypto App
-                    </Link>
-                
+                    </Link>          
             </button>
             </div>
         </main>
