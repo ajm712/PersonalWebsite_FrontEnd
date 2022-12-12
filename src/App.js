@@ -7,7 +7,6 @@ import CryptoApp from "./components/CryptoApp";
 import AboutThisSite from "./components/AboutThisSite";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
-import Resume from "./components/Resume";
 
 export default function App() {
     return (
@@ -19,7 +18,6 @@ export default function App() {
                     <Route path='/AboutThisSite' element={<AboutThisSite />} />
                     <Route path='/Experience' element={<Experience />} />
                     <Route path='/Skills' element={<Skills />} />
-                    <Route path='/Resume' element={<Resume />} />
                     <Route path = '/' element={<MainPage />} />
                 </Routes>
           </Router>
