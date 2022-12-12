@@ -56,27 +56,27 @@ export const experience = [
 export const siteTechnologies = [
     {
         technologyName: "Hero Icons",
-        description: "Description here",
+        description: "An icon library",
         category: "Front-End"
     },
     {
         technologyName: "React JS",
-        description: "Description here",
+        description: "For a responseive website",
         category: "Front-End"
     },
     {
         technologyName: "Tailwind",
-        description: "Description here",
+        description: "A library of css classes",
         category: "Front-End"
     },
     {
         technologyName: "Rest API",
-        description: "Description here",
+        description: "Server side endpoint for web-apps",
         category: "Front-End"
     },
     {
         technologyName: "SQL Server",
-        description: "Description here",
+        description: "Data storage (not yet used)",
         category: "Back-End"
     }
 ];

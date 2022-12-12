@@ -11,10 +11,10 @@ export default function Introduction() {
                 <div className="text-center mb-20">
                     <CommandLineIcon className="w-24 inline-block mb-4 text-sky-700" />
                     <h1 className="sm:text-4xl text-4xl text-white mb-3">
-                        Hi, welcome to my website!
+                        Hi, I'm Austin, welcome to my website!
                     </h1>
-                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Here you will find my work experience, professional skills, and some side projects I am working on
+                    <p className="text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                        Here you will find my work experience, professional skills, and some side projects I am working on. Nothing on this landing page quiet yet. 
                     </p>
                 </div>
                 </div>

@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <div className="flex items-center justify-end">
             <Link to="/" className="static ">
-                <img src={require('../images/Name_logo_3.png')} alt="Logo" />
+                <img src={process.env.PUBLIC_URL + "/Name_logo_3.png"} alt="Logo" />
             </Link>
             <nav>
                 <section className="MOBILE-MENU flex lg:hidden">
@@ -20,7 +20,7 @@ export default function Header() {
                         <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
                     </div>
 
-                    <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+                    <div className={isNavOpen ? "showMenuNav overscroll-none" : "hideMenuNav"}>
                         <div
                             className="absolute top-0 right-0 px-8 py-8"
                             onClick={() => setIsNavOpen(false)}
@@ -38,7 +38,7 @@ export default function Header() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="flex flex-col items-center justify-between min-h-[200px] text-3xl text-gray-800">
+                        <ul className="flex flex-col items-center justify-between min-h-[200px] text-3xl text-gray-800 ">
                             <Link to="/Experience" className="mr-5">
                                 Experience
                             </Link>

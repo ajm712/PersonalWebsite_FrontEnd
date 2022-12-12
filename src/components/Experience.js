@@ -6,21 +6,37 @@ import Navbar from "./Navbar";
 export default function Experience() {
     return (
     <div>
-        {<Navbar />}
+            {<Navbar />}
         <section id="experience">
-            <div className="container px-5 py-10 mx-auto">
+            <div className="container px-5 py-10 mx-auto h-full">
                 <div className="text-center mb-20">
-                    <CubeIcon className="w-20 inline-block mb-4 text-sky-700" />
+                    <CubeIcon className="w-24 inline-block text-sky-700" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                         My Experience
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        My professional expereience as a software engineer from September 2019 to present
-                    </p>
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-8">
+                        Below are brief descriptions of my professional expereience as a software engineer from September 2019 to present. Click the links below to navigate to my Github and Linkedin profiles.
+                        </p>
+                        <div>
+                            <button
+                                className="text-white bg-sky-700 border-0 py-2.5 px-6 hover:bg-green-600 rounded-full text-lg mr-8">
+                                <a href="https://github.com/ajm712">
+                                Github
+                                    {/*<img src={process.env.PUBLIC_URL + "/GitHub-logo.png"} alt="logo" />*/}
+                                </a>
+                            </button>
+                        <button
+                            className="text-white bg-sky-700 border-0 py-2.5 px-6 hover:bg-green-600 rounded-full text-lg">
+                                <a href="https://www.linkedin.com/in/austin-markham-b21936123/">
+                                Linkedin
+                                    {/*<img className="" src={process.env.PUBLIC_URL + "/linkedin-logo.png"} alt="Logo" />*/}
+                                    </a>
+                            </button>
+                        </div>
                 </div>
                 <div className="flex-1 flex-wrap -m-4">
                     {experience.map((job) => (
-                        <div key={job.title} className=" w-100 p-4">
+                        <div key={job.title} className=" w-100 p-4 text-center">
                             <div className="flex relative">
                                 <div className="px-8 py-3 relative w-full border-4 border-gray-800 bg-gray-800 rounded-lg">
                                     <h2 className="tracking-widest text-2xl title-font font-medium text-sky-500 mb-1">
