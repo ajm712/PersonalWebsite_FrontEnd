@@ -1,10 +1,10 @@
 import React from 'react';
-import Introduction from "./Introduction";
+import LandingPage from "./LandingPage";
 
 export default function MainPage() {
     return (
         <main>
-            <Introduction />
+            <LandingPage />
         </main>
     );
 }

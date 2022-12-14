@@ -10,7 +10,7 @@ import Skills from "./components/Skills";
 
 export default function App() {
     return (
-        <main className="text-gray-300 font-semibold bg-gradient-to-l from-cyan-500 to-blue-500 body-font">
+        <main className="text-gray-300 font-semibold bg-gradient-to-l from-cyan-400 to-blue-600 body-font">
           <Router>
                 <Routes>
                     <Route path='/WebApps' element={<WebApps />} />
