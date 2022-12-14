@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import Hamburger from "./Hamburger";
-import LargeNavbar from "./LargeNavbar";
 import Media from 'react-media';
 import LargeNavbar2 from './LargeNavbar2';
 
