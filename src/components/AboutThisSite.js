@@ -5,7 +5,7 @@ import { siteTechnologies } from "../data";
 
 export default function AboutThisSite() {
     return (
-        <div  >
+        <div>
             {<Navbar />}
             <section id="aboutthissite">
                 <div className="container py-10 mx-auto h-full justify-center">

@@ -8,7 +8,7 @@ export default function Skills() {
         <div>
             {<Navbar />}
             <section id="skills">
-              <div className="px-5 py-10 mx-auto h-screen">
+              <div className="px-5 py-10 mx-auto sm:h-screen h-full">
                 <div className="text-center mb-20">
                     <CodeBracketIcon className="w-24 inline-block mb-4 text-sky-700" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-3">

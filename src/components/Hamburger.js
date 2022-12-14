@@ -79,7 +79,6 @@ export default function Header() {
         top: 0;
         left: 0;
         background: white;
-        opacity: 0.9;
         z-index: 10;
         display: flex;
         flex-direction: column;

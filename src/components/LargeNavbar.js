@@ -7,7 +7,7 @@ export default function LargeNavbar() {
             <Link to="/" className="ml-24">
                 <img src={process.env.PUBLIC_URL + "/Name_logo_3.png"} alt="Logo" /> 
             </Link>
-            <div className="container flex justify-end">
+            <div className="container flex justify-end text-green-500">
                 <nav className="font-semibold text-xl">
                     <Link to="/Experience" className="mr-5">
                         Experience
