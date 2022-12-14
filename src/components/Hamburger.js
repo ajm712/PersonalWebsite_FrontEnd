@@ -38,7 +38,7 @@ export default function Header() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="flex flex-col items-center justify-between min-h-[200px] text-3xl text-gray-800 ">
+                        <ul className="flex flex-col items-center justify-between min-h-[200px] text-3xl text-gray-800">
                             <Link to="/Experience" className="mr-5">
                                 Experience
                             </Link>
