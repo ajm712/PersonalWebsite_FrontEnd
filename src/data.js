@@ -80,3 +80,22 @@ export const siteTechnologies = [
         category: "Back-End"
     }
 ];
+
+export const solutions = [
+    {
+        technologyName: "Mobile App",
+        description: "App for Android and IOS"
+    },
+    {
+        technologyName: "Web App",
+        description: "For a responseive website"
+    },
+    {
+        technologyName: "Backend Api",
+        description: "A library of css classes"
+    },
+    {
+        technologyName: "Website",
+        description: "Server side endpoint for web-apps"
+    }
+];

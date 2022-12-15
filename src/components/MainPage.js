@@ -1,7 +1,10 @@
 import React, { Fragment } from 'react';
 import Media from 'react-media';
+import AboutThisSite from './AboutThisSite';
+import Experience from './Experience';
 import LargeLandingPage from "./LargeLandingPage";
 import MobileLandingPage from "./MobileLandingPage";
+import Skills from './Skills';
 
 export default function MainPage() {
     return (
@@ -17,6 +20,7 @@ export default function MainPage() {
                     </Fragment>
                 )}
             </Media>
+
         </main>
     );
 }

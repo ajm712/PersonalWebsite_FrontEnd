@@ -8,18 +8,16 @@ export default function AboutThisSite() {
         <div>
             {<Navbar />}
             <section id="aboutthissite">
-                <div className="container py-10 mx-auto h-full justify-center">
-                    <div className="text-center mb-24">
+                <div className="container py-10 mx-auto h-full justify-center mt-28">
+                    <div className="text-center mb-24 ">
                         {/*<img src={process.env.PUBLIC_URL + "/Professional_headshot_1.jpg"} alt="logo" className="w-40 mb-4 text-sky-700 rounded-lg" />*/}
                         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-3">
                             About this site
                         </h1>
-                        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                            The goal of this website is to outline my professional experience, skills, learn new front-end technologies from the creation of the site,
-                            and to apply my back-end skills to a website of my own. This site is hosted in Azure and makes use of my REST Api that is also hosted in Azure.
-                            The 'My Apps" section of the website is a place where I will experiment with 3rd party api's and my own.
-                            Currently I only have a "Crypto App" app where you can input any cryptocurrency's ticker symbol and get a live spot price for it. This app makes a call to my Api
-                            and returns the desired crypto price. This will be expanded upon and added to in the future.
+                        <p className="text-base text-white leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                            This website outlines my professional software experience and skills 
+                            With my extensive professional experience in the software industry in mind, I am more than confident that I can create an amazing, robust web app or website for you that
+                            will exceed your expectations and provide value for your business.
                         </p>
                     </div>
                     <div className="text-center mb-10 items-center">

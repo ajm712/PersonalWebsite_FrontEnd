@@ -15,6 +15,9 @@ export default function LargeNavbar2() {
                     <Link to="/Skills" className="mr-5">
                         Skills
                     </Link>
+                    <Link to="/Services" className="mr-5">
+                        Services
+                    </Link>
                     <Link to="/WebApps" className="mr-5">
                         Web Apps
                     </Link>

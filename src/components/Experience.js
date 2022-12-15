@@ -15,18 +15,19 @@ export default function Experience() {
                         My Experience
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-8">
-                        Below are brief descriptions of my professional expereience as a software engineer from September 2019 to present. Click the links below to navigate to my Github and Linkedin profiles.
+                            Below are brief descriptions of my professional expereiences as a software engineer from September 2019 to present.
+                            Click the links below to navigate to my Github and Linkedin profiles.
                         </p>
                         <div>
                             <button
-                                className="text-white bg-sky-700 border-0 py-2.5 px-6 hover:bg-green-600 rounded-full text-lg mr-8">
+                                className="text-white bg-green-600 border-0 py-2 px-8 hover:bg-gray-800 rounded text-xl mr-8">
                                 <a href="https://github.com/ajm712">
                                 Github
                                     {/*<img src={process.env.PUBLIC_URL + "/GitHub-logo.png"} alt="logo" />*/}
                                 </a>
                             </button>
                         <button
-                            className="text-white bg-sky-700 border-0 py-2.5 px-6 hover:bg-green-600 rounded-full text-lg">
+                                className="text-white bg-green-600 border-0 py-2 px-8 hover:bg-gray-800 rounded text-xl">
                                 <a href="https://www.linkedin.com/in/austin-markham-b21936123/">
                                 Linkedin
                                     {/*<img className="" src={process.env.PUBLIC_URL + "/linkedin-logo.png"} alt="Logo" />*/}
@@ -38,7 +39,7 @@ export default function Experience() {
                     {experience.map((job) => (
                         <div key={job.title} className=" w-100 p-4 text-center">
                             <div className="flex relative">
-                                <div className="px-8 py-3 relative w-full border-4 border-gray-800 bg-gray-800 rounded-lg">
+                                <div className="px-8 py-3 relative w-full border-4 border-gray-800 bg-gray-800 rounded-lg border-gray-600">
                                     <h2 className="tracking-widest text-2xl title-font font-medium text-sky-500 mb-1">
                                         {job.title}
                                     </h2>
