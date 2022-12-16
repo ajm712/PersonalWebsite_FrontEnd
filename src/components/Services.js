@@ -26,9 +26,7 @@ export default function Services() {
                                 <h1 className="text-m font-medium text-white mb-3">
                                     Mobile app development for android and IOS that will take your business to the next level.
                                 </h1>
-                                <p className="leading-relaxed">Placeholder</p>
                             </div>
-
                             <div className="px-8 py-3 relative border-4 border-gray-600 bg-gray-800 rounded-lg mb-4 ml-3">
                                 <h2 className="tracking-wide text-xl title-font font-medium text-sky-500 mb-1">
                                     Backend Api Development
@@ -36,7 +34,6 @@ export default function Services() {
                                 <h1 className="title-font text-m font-medium text-white mb-3">
                                     Develop a robust api for your existing applications
                                 </h1>
-                                <p className="leading-relaxed">Placeholder</p>
                             </div>
                             <div className="px-8 py-3 relative border-4 border-gray-600 bg-gray-800 rounded-lg mb-4 ml-3">
                                 <h2 className="tracking-wide text-2xl title-font font-medium text-sky-500 mb-1">
@@ -45,7 +42,6 @@ export default function Services() {
                                 <h1 className="title-font text-m font-medium text-white mb-3">
                                     Scripting to automate tedious tasks such adtaa entry
                                 </h1>
-                                <p className="leading-relaxed">Placeholder</p>
                             </div>
                         </div>
                     </div>

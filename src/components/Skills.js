@@ -18,10 +18,10 @@ export default function Skills() {
                       Below is a list of programming languages, libraries, and technologies that I have used in my professional experience.
                     </p>
                 </div>
-                  <div className="flex flex-wrap lg:w-3/5 sm:mx-auto sm:mb-2 -mx-2">
+                  <div className="flex flex-wrap lg:w-3/5 sm:mx-auto sm:mb-2 -mx-2 ">
                     {skills.map((skill) => (
                       <div key={skill} className="p-2 sm:w-1/3 w-full">
-                        <div className="bg-gray-800 rounded flex p-4 items-center">
+                            <div className="bg-gray-800 rounded flex p-4 items-center border-4 border-gray-600">
                           <CheckCircleIcon className="text-sky-400 w-6 h-6 flex-shrink-0 mr-4" />
                           <span className="title-font font-medium text-white">
                             {skill}

@@ -20,18 +20,19 @@ export default function MobileLandingPage() {
                             Hi, I'm Austin, welcome to my website!
                         </h1>
                         <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                            On this site that I created from scratch (almost), you will find my professional experience and some web apps that I am working on.
-                            I also do freelancing on the side. 
-                        </p><br></br>
-                        <p className="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mt-4">
-                            Click the first link below to navigate to my Fiverr page and I can make your app idea a reality!
+                            I'm a Software Engineer looking to make your web application / website a reality!
+                            I specialize in creating robust cloud hosted web applications and websites using the latest and greatest technologies.
                             If your app idea exceeds the scope of my Fiverr packages (small to medium sized apps), click the adjacent Contact Me link to contact me!
+                        </p><br></br>
+                        <p className="mb-8 leading-relaxed">
+                            With my extensive professional experience in the software industry in mind, I am more than confident that I can create an amazing, robust web app, mobile app, api, or website for you that
+                            will exceed your expectations and provide value for your business.
                         </p>
-                        <a
-                            href="#contact//"
-                            className="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-2xl">
-                            Contact Me
-                        </a>
+                        {/*<a*/}
+                        {/*    href="#contact//"*/}
+                        {/*    className="inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-2xl">*/}
+                        {/*    Contact Me*/}
+                        {/*</a>*/}
                         {/*<a*/}
                         {/*    href="https://www.fiverr.com/austinmarkham"*/}
                         {/*    className="ml-6 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-2xl">*/}

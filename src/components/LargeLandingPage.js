@@ -16,13 +16,11 @@ export default function LargeLandingPage() {
                     </h1>
                         <p className="mb-8 leading-relaxed">
                             I specialize in creating robust cloud hosted web applications and websites using the latest and greatest technologies.
+                            With my extensive professional experience in the software industry in mind, I am more than confident that I can create an amazing, robust web app, mobile app, api, or website for you that
+                            will exceed your expectations and provide value for your business.
                         {/*On this site that I created from scratch (almost), you will find my professional experience and some side project apps that I am working on.*/}
                         {/*Click the Contact Me button below to reach out to me and we can start the process of creating an amazing web app or website for you!*/}
                         </p>
-                    <p className="mb-8 leading-relaxed">
-                            With my extensive professional experience in the software industry in mind, I am more than confident that I can create an amazing, robust web app or website for you that
-                            will exceed your expectations and provide value for your business. Click the link below to contact me and start making your web app or website a reality!
-                    </p>
                     <div className="flex justify-center">
                     {/*<a*/}
                     {/*    href="https://www.fiverr.com/austinmarkham"*/}
@@ -34,13 +32,13 @@ export default function LargeLandingPage() {
                     {/*    className="ml-4 text-gray-400 bg-gray-800 border-0 py-2 px-8 hover:bg-gray-700 hover:text-green rounded text-xl">*/}
                     {/*    Contact Me*/}
                     {/*        </a>*/}
-                            <button
-                                className="text-white bg-green-600 border-0 py-2 px-8 hover:bg-gray-800 rounded text-xl">
-                                <a href="https://www.linkedin.com/in/austin-markham-b21936123/">
-                                    Contact Me
-                                    {/*<img className="" src={process.env.PUBLIC_URL + "/linkedin-logo.png"} alt="Logo" />*/}
-                                </a>
-                            </button>
+                            {/*<button*/}
+                            {/*    className="text-white bg-green-600 border-0 py-2 px-8 hover:bg-gray-800 rounded text-xl">*/}
+                            {/*    <a href="https://www.linkedin.com/in/austin-markham-b21936123/">*/}
+                            {/*        Contact Me*/}
+                            {/*        */}{/*<img className="" src={process.env.PUBLIC_URL + "/linkedin-logo.png"} alt="Logo" />*/}
+                            {/*    </a>*/}
+                            {/*</button>*/}
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
